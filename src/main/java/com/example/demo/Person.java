@@ -1,7 +1,7 @@
 package com.example.demo;
 
 public class Person {
-    private Long id; //final 
+    private Long id; //final, look further into this
     private String name;
 
     public Person(){}
