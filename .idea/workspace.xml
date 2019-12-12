@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e26b4737-2d33-4a3a-80c4-1db6665daecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Learner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/InstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,10 +36,99 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.demo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InstructorTest.lecture">
+    <configuration name="InstructorTest.lecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.InstructorTest" />
+      <option name="METHOD_NAME" value="lecture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstructorTest.teach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.InstructorTest" />
+      <option name="METHOD_NAME" value="teach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.PersonTest" />
+      <option name="METHOD_NAME" value="getId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.getTotalStudyTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.StudentTest" />
+      <option name="METHOD_NAME" value="getTotalStudyTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -46,6 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InstructorTest.lecture" />
+        <item itemvalue="JUnit.InstructorTest.teach" />
+        <item itemvalue="JUnit.StudentTest.getTotalStudyTime" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.getId" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -71,7 +170,7 @@
       <updated>1576090056795</updated>
       <workItem from="1576090059784" duration="261000" />
       <workItem from="1576091082631" duration="20000" />
-      <workItem from="1576091132569" duration="732000" />
+      <workItem from="1576091132569" duration="3454000" />
     </task>
     <servers />
   </component>
@@ -79,9 +178,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1576092299348">
+    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1576109526767">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576092299348" />
+    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1576109526767" />
+    <state x="378" y="195" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576110236952">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="195" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1280.777@0.23.1280.777" timestamp="1576110236952" />
+    <state width="1280" height="204" key="GridCell.Tab.0.bottom" timestamp="1576111232813">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1280" height="204" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1576111232813" />
+    <state width="1280" height="204" key="GridCell.Tab.0.center" timestamp="1576111232811">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1280" height="204" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1576111232811" />
+    <state width="1280" height="204" key="GridCell.Tab.0.left" timestamp="1576111232811">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1280" height="204" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1576111232811" />
+    <state width="1280" height="204" key="GridCell.Tab.0.right" timestamp="1576111232812">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1280" height="204" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1576111232812" />
+    <state x="419" y="162" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576110973679">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="419" y="162" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.777@0.23.1280.777" timestamp="1576110973679" />
   </component>
 </project>
