@@ -43,12 +43,14 @@ public abstract class People<PersonType extends Person> implements Iterable<Pers
                 return p;
             }
         }
-        return null; 
+        return null;
     }
 
     public List findAll(){
         return this.personList;
     }
+
+    public Iterator<PersonType> iterator(){return personList.iterator();}
 
 
     //Create an abstract People class

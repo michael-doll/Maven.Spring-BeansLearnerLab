@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e26b4737-2d33-4a3a-80c4-1db6665daecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Students.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1576091132569" duration="10820000" />
       <workItem from="1576184806702" duration="181000" />
       <workItem from="1576190964684" duration="1824000" />
-      <workItem from="1576195931154" duration="465000" />
+      <workItem from="1576195931154" duration="1070000" />
     </task>
     <servers />
   </component>
@@ -179,11 +179,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1576183554537">
+    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1576197252168">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576092299348" />
-    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1576183554537" />
+    <state x="453" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1576197252168" />
     <state x="378" y="195" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576110236952">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
