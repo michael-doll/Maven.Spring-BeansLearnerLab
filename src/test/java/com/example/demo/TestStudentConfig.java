@@ -24,7 +24,16 @@ public class TestStudentConfig {
     @Test
     public void testCurrentStudents(){
         StudentConfig studentConfig = new StudentConfig();
-        System.out.println(studentConfig.currentStudents().personList.get(1));
-        Assert.assertEquals(1,1);
+        String expected = studentConfig.currentStudents().personList.get(0).getName();
+        String actual = "Henry";
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testPreviousStudents(){
+        StudentConfig studentConfig = new StudentConfig();
+        String expected = studentConfig.previousStudents().personList.get(0).getName();
+        String actual = "Bart";
+        Assert.assertEquals(expected, actual);
     }
 }
