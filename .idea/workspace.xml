@@ -4,7 +4,7 @@
     <list default="true" id="e26b4737-2d33-4a3a-80c4-1db6665daecb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestClassroomConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestClassroomConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestStudentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestStudentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/TestInstructorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestInstructorConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStudentConfig">
+  <component name="RunManager" selected="JUnit.TestInstructorConfig">
     <configuration name="InstructorTest.lecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -65,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstructorTest.teach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInstructorConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +74,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.InstructorTest" />
-      <option name="METHOD_NAME" value="teach" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.TestInstructorConfig" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.getTotalStudyTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInstructorConfig.testTcUsaInstructors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.StudentTest" />
-      <option name="METHOD_NAME" value="getTotalStudyTime" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.TestInstructorConfig" />
+      <option name="METHOD_NAME" value="testTcUsaInstructors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestInstructorConfig" />
+        <item itemvalue="JUnit.TestInstructorConfig.testTcUsaInstructors" />
         <item itemvalue="JUnit.TestStudentConfig" />
         <item itemvalue="JUnit.TestStudentConfig.testCurrentStudents" />
         <item itemvalue="JUnit.InstructorTest.lecture" />
-        <item itemvalue="JUnit.InstructorTest.teach" />
-        <item itemvalue="JUnit.StudentTest.getTotalStudyTime" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +173,7 @@
       <workItem from="1576190964684" duration="1824000" />
       <workItem from="1576195931154" duration="2292000" />
       <workItem from="1576251842555" duration="105000" />
-      <workItem from="1576252375105" duration="13755000" />
+      <workItem from="1576252375105" duration="15569000" />
     </task>
     <servers />
   </component>
@@ -192,28 +191,28 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="378" y="195" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1280.777@0.23.1280.777" timestamp="1576110236952" />
-    <state width="1437" height="489" key="GridCell.Tab.0.bottom" timestamp="1576296418188">
+    <state width="1437" height="489" key="GridCell.Tab.0.bottom" timestamp="1576349455607">
       <screen x="-1440" y="-1577" width="1440" height="2537" />
     </state>
-    <state width="1437" height="489" key="GridCell.Tab.0.bottom/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576296418188" />
+    <state width="1437" height="489" key="GridCell.Tab.0.bottom/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576349455607" />
     <state width="1280" height="204" key="GridCell.Tab.0.bottom/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576259837695" />
     <state width="1280" height="285" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1576272860295" />
-    <state width="1437" height="489" key="GridCell.Tab.0.center" timestamp="1576296418187">
+    <state width="1437" height="489" key="GridCell.Tab.0.center" timestamp="1576349455606">
       <screen x="-1440" y="-1577" width="1440" height="2537" />
     </state>
-    <state width="1437" height="489" key="GridCell.Tab.0.center/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576296418187" />
+    <state width="1437" height="489" key="GridCell.Tab.0.center/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576349455606" />
     <state width="1280" height="204" key="GridCell.Tab.0.center/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576259837693" />
     <state width="1280" height="285" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1576272860294" />
-    <state width="1437" height="489" key="GridCell.Tab.0.left" timestamp="1576296418187">
+    <state width="1437" height="489" key="GridCell.Tab.0.left" timestamp="1576349455605">
       <screen x="-1440" y="-1577" width="1440" height="2537" />
     </state>
-    <state width="1437" height="489" key="GridCell.Tab.0.left/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576296418187" />
+    <state width="1437" height="489" key="GridCell.Tab.0.left/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576349455605" />
     <state width="1280" height="204" key="GridCell.Tab.0.left/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576259837692" />
     <state width="1280" height="285" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1576272860294" />
-    <state width="1437" height="489" key="GridCell.Tab.0.right" timestamp="1576296418188">
+    <state width="1437" height="489" key="GridCell.Tab.0.right" timestamp="1576349455607">
       <screen x="-1440" y="-1577" width="1440" height="2537" />
     </state>
-    <state width="1437" height="489" key="GridCell.Tab.0.right/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576296418188" />
+    <state width="1437" height="489" key="GridCell.Tab.0.right/0.23.1280.777/-1440.-1577.1440.2537@-1440.-1577.1440.2537" timestamp="1576349455607" />
     <state width="1280" height="204" key="GridCell.Tab.0.right/0.23.1280.777/-359.-1057.1920.1057@0.23.1280.777" timestamp="1576259837693" />
     <state width="1280" height="285" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1576272860294" />
     <state x="419" y="162" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576110973679">
