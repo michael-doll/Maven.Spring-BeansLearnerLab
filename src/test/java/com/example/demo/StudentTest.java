@@ -8,7 +8,7 @@ class StudentTest {
 
     @Test
     void getTotalStudyTime() {
-        Student student = new Student();
+        Student student = new Student(1L,"Harry");
         Double expected = 10.0;
         Double actual;
         student.learn(expected);

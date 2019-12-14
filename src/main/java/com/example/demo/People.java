@@ -10,6 +10,7 @@ public abstract class People<PersonType extends Person> implements Iterable<Pers
     public People(List<PersonType> personList){
            this.personList = personList;
     }
+
     public People(PersonType... personType){
         this.personList.addAll(Arrays.asList(personType));
     }
@@ -54,7 +55,6 @@ public abstract class People<PersonType extends Person> implements Iterable<Pers
 
 
     //Create an abstract People class
-    //
     //    The class signature should be parameterized with PersonType such that PersonType is a sub class of Person.
     //    The class should implement Iterable of type PersonType.
     //    Upon construction People should consume a List of PersonType and set it to a respective personList field.
@@ -64,7 +64,7 @@ public abstract class People<PersonType extends Person> implements Iterable<Pers
     //    The class should define a method named size which returns the size of personList.
     //    The class should define a method named clear which clears our personList field.
     //    The class should define a method named addAll which adds an Iterable of PersonType objects to the composite personList.
-    //        This method will NOT take an argument of Collection<PersonType>
+    //    This method will NOT take an argument of Collection<PersonType>
     //    The class should define a method named findById which makes use of a long id parameter to return a PersonType object with the respective id field.
     //    The class should define a method named findAll which returns the composite personList.
 }

@@ -8,8 +8,8 @@ class InstructorTest {
 
     @Test
     void teach() {
-        Instructor instructor = new Instructor();
-        Student student = new Student();
+        Instructor instructor = new Instructor(1L, "Henry");
+        Student student = new Student(1L,"Harry");
         Double expected = 10.0;
         Double actual;
         instructor.teach(student, expected);

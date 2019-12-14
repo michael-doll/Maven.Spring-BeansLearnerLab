@@ -1,10 +1,9 @@
 package com.example.demo;
 
 public class Person {
-    private Long id; //final, look further into this
+    private final Long id; //final, look further into this
     private String name;
 
-    public Person(){}
     public Person(Long id, String name){
         this.id = id;
         this.name = name;
